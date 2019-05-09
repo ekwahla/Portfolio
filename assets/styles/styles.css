@@ -34,12 +34,16 @@ h1, h2, h3, h4, h5, h6 {
 		border-radius: 45px;
 		height: auto;
 		padding: .8em 2.1em;
+		background-color: blue;
 }
 
 .my-button:hover {
 	cursor: pointer;
 	padding: .8em 2.7em;
+	/*color: blue !important;*/
+	border: 2px solid #fff !important;
 }
+
 
 .my-button:active,
 .my-button:focus,
@@ -99,17 +103,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta .cta-button {
-		color: #cc4b37;
+		/*color: #cc4b37;*/
+	color: blue;
 		text-transform: uppercase;
-		border: 2px solid rgba(255, 103, 68, 0.91);
+		/*border: 2px solid rgba(255, 103, 68, 0.91);*/
+		border: 2px solid blue;
 		border-radius: 50px;
 		background: white;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-		background-color: rgba(255, 103, 68, 0.91);
+		/*background-color: rgba(255, 103, 68, 0.91);*/
 		color: white;
+		background-color: 	rgba(0 ,0,255,0.91);
 }
 
 #about i {
@@ -130,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 #experience {
 	background-color: #4c6d86;
 	padding: 6em 4em 5.6em;
+	/*background-color: #fff;*/
 }
 
 #experience h2 {
@@ -145,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 #experience i {
 	color: rgb(255, 138, 89);
 	font-size: 4em;
+	/*color: blue;*/
 }
 
 #experience h3 {
@@ -247,8 +256,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	/*background-color: rgba(255, 103, 68, 0.91);*/
 	padding: 6em 4em 5.6em;
+	background-color: #eee;
 }
 
 #footer-cta h2 {
@@ -301,4 +311,5 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	color: #fff;
 }
-.
+
+
